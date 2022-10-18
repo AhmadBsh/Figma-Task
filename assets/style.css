@@ -122,7 +122,14 @@ text-decoration-line: underline;
 }
 
 
-.specialized-in {
+.specialized {
+  position: relative;
+  width: 1286px;
+height: 583.32px;
+top: 1581px;
+
+}
+.spec-title {
   margin-top: 15px;
   position: absolute;
   width: 310px;
@@ -130,7 +137,7 @@ text-decoration-line: underline;
   left: 530px;
   /* top: 1591px; */
 
-  font-family: 'inter';
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -139,7 +146,7 @@ text-decoration-line: underline;
   color: #FFFFFF;
 }
 
-.card1 {
+.spec-card1 {
   margin: 10px;
   margin-top: 30px;
   position: relative;
@@ -154,7 +161,7 @@ text-decoration-line: underline;
   backdrop-filter: blur(10px);
   border-radius: 0px 8px 8px 8px;
   /* top: 1777px; */
-  font-family: inter;
+  font-family: "Inter";
   font-weight: 18;
   font-size: 1rem;
   line-height: 20px;
@@ -163,18 +170,18 @@ text-decoration-line: underline;
   color: #F5F5F7;
 }
 
-.card1 h3 {
+.spec-card1 h3 {
   font-size: 1.5rem;
   line-height: 20px;
   padding: 64px 249px 0px 35px;
 }
 
-.card1 p {
+.spec-card1 p {
   padding: 32px 32px 64px 32px;
   font-weight: 1;
 }
 
-.card1::before {
+.spec-card1::before {
   content: "";
   position: absolute;
   width: 160px;
@@ -187,7 +194,7 @@ text-decoration-line: underline;
 
 }
 
-.card1::after {
+.spec-card1::after {
   content: "";
   position: absolute;
   width: 160px;
@@ -200,14 +207,14 @@ text-decoration-line: underline;
 
 }
 
-.card {
+.spec-card {
   display: flex;
   justify-content: space-between;
   justify-items: center;
 
 }
 
-.circle1 {
+.spec-circle1 {
   box-sizing: border-box;
   border-radius: 50%;
   position: absolute;
@@ -219,7 +226,7 @@ text-decoration-line: underline;
   border: 1px solid rgba(249, 204, 17, 0.3);
 }
 
-.circle2 {
+.spec-circle2 {
 
   box-sizing: border-box;
   border-radius: 50%;
@@ -232,7 +239,7 @@ text-decoration-line: underline;
   border: 1px solid rgba(249, 204, 17, 0.6);
 }
 
-.circle3 {
+.spec-circle3 {
   position: absolute;
   border-radius: 50%;
   width: 13px;
@@ -243,7 +250,7 @@ text-decoration-line: underline;
   background: #F9CC11;
 }
 
-.circle4 {
+.spec-circle4 {
 
   box-sizing: border-box;
   border-radius: 50%;
@@ -256,7 +263,7 @@ text-decoration-line: underline;
   border: 1px solid rgba(249, 204, 17, 0.6);
 }
 
-.circle5 {
+.spec-circle5 {
 
   box-sizing: border-box;
   border-radius: 50%;
@@ -269,7 +276,7 @@ text-decoration-line: underline;
   border: 1px solid rgba(249, 204, 17, 0.3);
 }
 
-.right-arrow::after {
+.spec-right-arrow::after {
   position: absolute;
   width: 1px;
   height: 15px;
@@ -284,13 +291,10 @@ text-decoration-line: underline;
   right: 86.23%;
   top: 30.36%;
   bottom: 69.42%; */
-
-
   background: #F9CC11;
 }
 
-.right-arrow::before {
-
+.spec-right-arrow::before {
   position: absolute;
   width: 1px;
   height: 15px;
@@ -308,7 +312,7 @@ text-decoration-line: underline;
   transform: rotate(140deg);
 }
 
-.left-arrow::after {
+.spec-left-arrow::after {
   position: absolute;
   width: 1px;
   height: 15px;
@@ -323,12 +327,9 @@ text-decoration-line: underline;
 right: 86.23%;
 top: 30.36%;
 bottom: 69.42%; */
-
-
   background: #F9CC11;
 }
-
-.left-arrow::before {
+.spec-left-arrow::before {
   position: absolute;
   width: 1px;
   height: 15px;
@@ -343,8 +344,6 @@ bottom: 69.42%; */
   right: 86.23%;
   top: 30.36%;
   bottom: 69.42%; */
-
-
   background: #F9CC11;
 }
 
