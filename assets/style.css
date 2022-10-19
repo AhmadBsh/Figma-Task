@@ -6,6 +6,183 @@ body {
   background: #030303;
 }
 
+
+.home-page {
+  background-image: url('/assets/images/homePage.png');
+  width: 100vw;
+  height: 100vh;
+}
+
+.navbar {
+  background: rgba(2, 2, 2, 0.05);
+  border: 0.5px solid #F5F5F7;
+  backdrop-filter: blur(17.5px);
+  width: 1366px;
+  height: 113px;
+  position: fixed;
+}
+
+.navbar .logo {
+  position: absolute;
+  margin-left: 40px;
+  margin-top: 37px;
+  margin-bottom: 37px;
+}
+
+.nav-content .nav-items {
+  display: flex;
+  list-style: none;
+  color: white;
+  gap: 1px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  margin-top: 47px;
+  margin-bottom: 44px;
+  margin-right: 42px;
+}
+
+.navbar {
+  position: relative;
+}
+
+.nav-content {
+  position: absolute;
+  right: 0px;
+}
+
+.item-1 {
+  margin-right: 34px;
+}
+
+.item-2 {
+  margin-left: 34px;
+  margin-right: 34px;
+}
+
+.item-3 {
+  margin-left: 34px;
+}
+
+.nav-items li:first-child::before {
+  content: "";
+  border: 3px solid #F9CC11;
+  transform: rotate(90deg);
+  margin-right: 24px;
+}
+
+.nav-items a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.hero {
+  display: flex;
+  position: relative;
+}
+
+.hero .social-media {
+  position: absolute;
+  width: 32px;
+  height: 194px;
+  left: 36px;
+  margin-top: 205px;
+}
+
+.content-first {
+  position: absolute;
+  width: 485px;
+  height: 73px;
+  left: 448px;
+  margin-top: 175px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 73px;
+  color: white;
+}
+
+.content-two {
+  position: absolute;
+  width: 269px;
+  height: 36px;
+  left: 556px;
+  margin-top: 280px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  color: white;
+}
+
+.hero .line {
+  position: absolute;
+  width: 765px;
+  height: 0px;
+  left: 308px;
+  top: 374px;
+  border-top: 7px solid #F9CC11;
+  border-radius: 10px;
+}
+
+.content-third {
+  position: absolute;
+  /* width: 167px;*/
+  height: 24px;
+  left: 607px;
+  margin-top: 406px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  color: white;
+}
+
+.rectangle {
+  position: absolute;
+  width: 26px;
+  height: 38px;
+  left: 677px;
+  margin-top: 460px;
+  border: 1.5px solid #FFFDFD;
+  border-radius: 13px;
+}
+
+.line-rectangle {
+  position: absolute;
+  width: 10px;
+  height: 0px;
+  left: 685px;
+  top: 583px;
+  border: 2px solid #FFFFFF;
+  transform: rotate(90deg);
+}
+
+.line-right {
+  position: absolute;
+  width: 17.69px;
+  height: 0px;
+  left: 688px;
+  top: 628px;
+  border: 1.5px solid #FFFFFF;
+  transform: matrix(-0.73, 0.68, 0.68, 0.73, 0, 0);
+}
+
+.line-left {
+  position: absolute;
+  width: 17.69px;
+  height: 0px;
+  left: 673px;
+  top: 628px;
+  border: 1.5px solid #FFFFFF;
+  transform: rotate(42.71deg);
+}
+
 .experience {
   position: relative;
   min-width: 1286px;
@@ -733,13 +910,20 @@ bottom: 69.42%; */
 
 
 
----------portfolio
+/* ---------portfolio
 
     /* background: url(/assets/img/andrej-lisakov-g3z-CgUiPtg-unsplash\ 3@2x.png);
-    background-color: rgb(14 13 13 / 100%); */
-
+    background-color: rgb(14 13 13 / 100%); */ 
 
     .portfolio {
+      position: relative;
+      max-width: 1366px;
+      height: 558.32px;
+      top: 4562px;
+
+    }
+
+    .por-title{
       position: absolute;
       width: 190px;
       height: 54px;
@@ -756,11 +940,11 @@ bottom: 69.42%; */
   
   }
   
-  .nav-portfolio {
+  .por-nav {
       list-style-type: none;
   }
   
-  .li1 {
+  .por-li1 {
   
       position: absolute;
       width: 108px;
@@ -778,7 +962,7 @@ bottom: 69.42%; */
   
   }
   
-  .li1::before {
+  .por-li1::before {
       position: absolute;
       content: "";
       width: 60px;
@@ -790,7 +974,7 @@ bottom: 69.42%; */
       transform: rotate(180deg);
   }
   
-  .li2 {
+  .por-li2 {
   
       position: absolute;
       width: 96px;
@@ -807,7 +991,7 @@ bottom: 69.42%; */
   
   }
   
-  .li3 {
+  .por-li3 {
       position: absolute;
       width: 113px;
       height: 22px;
@@ -822,7 +1006,7 @@ bottom: 69.42%; */
       color: #ACACAE;
   }
   
-  .li4 {
+  .por-li4 {
   
       position: absolute;
       width: 158px;
@@ -839,12 +1023,12 @@ bottom: 69.42%; */
       color: #ACACAE;
   }
   
-  .slider-img1.view {
+  .por-slider-img1 .por-view {
       display: flex;
       justify-content: space-between;
   }
   
-  .slider-img1 {
+  .por-slider-img1 {
       margin-top: 65px;
       position: absolute;
       width: 404px;
@@ -856,7 +1040,7 @@ bottom: 69.42%; */
       border-radius: 8px;
   }
   
-  .slider-img1 p {
+  .por-slider-img1 p {
       /* position: absolute; */
       width: 164px;
       height: 22px;
@@ -873,7 +1057,7 @@ bottom: 69.42%; */
   
   }
   
-  .slider-img1 .view a {
+  .por-slider-img1 .por-view a {
   
       position: absolute;
       width: 50px;
@@ -891,7 +1075,7 @@ bottom: 69.42%; */
       color: #F9CC11;
   }
   
-  .slider-img1 .view a::after {
+  .por-slider-img1 .por-view a::after {
       position: absolute;
       width: 1px;
       height: 7px;
@@ -903,7 +1087,7 @@ bottom: 69.42%; */
       background: #F9CC11;
   }
   
-  .slider-img1 .view a::before {
+  .por-slider-img1 .por-view a::before {
   
       position: absolute;
       width: 1px;
@@ -916,7 +1100,7 @@ bottom: 69.42%; */
       transform: rotate(43deg);
   }
   
-  .slider-img1 .view::before {
+  .por-slider-img1 .por-view::before {
       position: absolute;
       content: "";
       width: 48px;
@@ -928,7 +1112,7 @@ bottom: 69.42%; */
       transform: rotate(180deg);
   }
   
-  .slider-img2 {
+  .por-slider-img2 {
       margin-top: 65px;
       position: absolute;
       width: 404px;
@@ -940,13 +1124,13 @@ bottom: 69.42%; */
       border-radius: 8px;
   }
   
-  .slider-flex {
+  .por-slider-flex {
       display: flex;
       justify-content: space-around;
   
   }
   
-  .slider-img3 {
+  .por-slider-img3 {
   
       position: absolute;
       width: 324px;
@@ -960,7 +1144,7 @@ bottom: 69.42%; */
   
   }
   
-  .slider-img4 {
+  .por-slider-img4 {
   
       position: absolute;
       width: 302px;
@@ -976,7 +1160,7 @@ bottom: 69.42%; */
   
   
   
-  .circle-portfolio .circle1 {
+  .por-circle .por-circle1 {
       box-sizing: border-box;
       border-radius: 50%;
       position: absolute;
@@ -988,7 +1172,7 @@ bottom: 69.42%; */
       border: 1px solid rgba(249, 204, 17, 0.3);
   }
   
-  .circle-portfolio .circle2 {
+  .por-circle .por-circle2 {
   
       box-sizing: border-box;
       border-radius: 50%;
@@ -1001,7 +1185,7 @@ bottom: 69.42%; */
       border: 1px solid rgba(249, 204, 17, 0.6);
   }
   
-  .circle-portfolio .circle3 {
+  .por-circle .por-circle3 {
       position: absolute;
       border-radius: 50%;
       width: 13px;
@@ -1012,7 +1196,7 @@ bottom: 69.42%; */
       background: #F9CC11;
   }
   
-  .circle-portfolio .circle4 {
+  .por-circle .por-circle4 {
   
       box-sizing: border-box;
       border-radius: 50%;
@@ -1025,7 +1209,7 @@ bottom: 69.42%; */
       border: 1px solid rgba(249, 204, 17, 0.6);
   }
   
-  .circle-portfolio .circle5 {
+  .por-circle .por-circle5 {
   
       box-sizing: border-box;
       border-radius: 50%;
@@ -1038,7 +1222,7 @@ bottom: 69.42%; */
       border: 1px solid rgba(249, 204, 17, 0.3);
   }
   
-  .circle-portfolio .right-arrow::after {
+  .por-circle .por-right-arrow::after {
       position: absolute;
       width: 1px;
       height: 15px;
@@ -1058,7 +1242,7 @@ bottom: 69.42%; */
       background: #F9CC11;
   }
   
-  .circle-portfolio .right-arrow::before {
+  .por-circle .por-right-arrow::before {
   
       position: absolute;
       width: 1px;
@@ -1077,7 +1261,7 @@ bottom: 69.42%; */
       transform: rotate(140deg);
   }
   
-  .circle-portfolio .left-arrow::after {
+  .por-circle .por-left-arrow::after {
       position: absolute;
       width: 1px;
       height: 15px;
@@ -1097,7 +1281,7 @@ bottom: 69.42%; */
       background: #F9CC11;
   }
   
-  .circle-portfolio .left-arrow::before {
+  .por-circle .por-left-arrow::before {
       position: absolute;
       width: 1px;
       height: 15px;
