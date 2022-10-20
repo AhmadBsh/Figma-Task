@@ -4,11 +4,10 @@ body {
   width: 1366px;
   height: 7078px;
   background: #030303;
-  overflow-x: hidden;
-  background-color: rgb(14 13 13 / 100%);
+  overflow-x:hidden;
 }
 
------------------------------------------------------------------------------- .home-page {
+.home-page {
   background-image: url("/assets/images/homePage.png");
   width: 1366px;
   height: 745px;
@@ -22,7 +21,7 @@ body {
   width: 1364px;
   height: 113px;
   position: fixed;
-
+ 
 }
 
 .navbar .logo {
@@ -170,7 +169,7 @@ body {
   position: absolute;
   width: 17.69px;
   height: 0px;
-  left: 689px;
+  left: 687px;
   top: 682px;
   border: 1px solid #ffffff;
   transform: matrix(-0.73, 0.68, 0.68, 0.73, 0, 0);
@@ -180,18 +179,18 @@ body {
   position: absolute;
   width: 17.69px;
   height: 0px;
-  left: 675px;
+  left: 673px;
   top: 682px;
   border: 1px solid #ffffff;
   transform: rotate(42.71deg);
 }
 
----------------------------------------------------------------------------- .experience {
+.experience {
   position: relative;
   min-width: 1286px;
   min-height: 584px;
   top: 120px;
-
+ 
 }
 
 .exp-title {
@@ -201,7 +200,6 @@ body {
   width: 251px;
   height: 68px;
 }
-
 .exp-main-title {
   padding-top: 14px;
   width: 251px;
@@ -214,7 +212,6 @@ body {
   line-height: 54px;
   color: #f5f5f7;
 }
-
 .exp-sub-title {
   position: absolute;
   right: 3%;
@@ -244,14 +241,12 @@ body {
   width: 1286px;
   height: 150px;
 }
-
 .exp-bottom-content {
   display: flex;
   justify-content: space-between;
   width: 1286px;
   height: 150px;
 }
-
 .exp-view-more {
   width: 104px;
   height: 24px;
@@ -280,7 +275,6 @@ body {
   line-height: 40px;
   color: #f5f5f7;
 }
-
 .c1-top,
 .c2-top,
 .c3-top,
@@ -291,7 +285,6 @@ body {
   justify-content: space-between;
   align-items: flex-end;
 }
-
 .c1-title,
 .c2-title,
 .c3-title,
@@ -319,7 +312,6 @@ body {
   line-height: 22px;
   color: #acacae;
 }
-
 .c1-spacer,
 .c2-spacer,
 .c3-spacer,
@@ -345,8 +337,6 @@ body {
   color: #acacae;
 }
 
-
-
 .specialized {
   position: relative;
   width: 1286px;
@@ -355,16 +345,14 @@ body {
   margin: 92px auto 0px auto;
 
 }
-
 .spec-card {
   width: 1286px;
   height: 376px;
-  margin-top: 68px;
+  margin-top:68px;
   display: flex;
   justify-content: space-between;
   justify-items: center;
 }
-
 .spec-title {
   position: relative;
   margin: 0 auto;
@@ -372,7 +360,6 @@ body {
   width: 306px;
   height: 68px;
 }
-
 .spec-main-title {
   padding-top: 12px;
   width: 306px;
@@ -385,7 +372,6 @@ body {
   line-height: 54px;
   color: #f5f5f7;
 }
-
 .spec-sub-title {
   position: absolute;
   right: 3%;
@@ -408,7 +394,6 @@ body {
   backdrop-filter: blur(10px);
   border-radius: 0px 8px 8px 8px;
 }
-
 .spec-card-title {
   position: absolute;
   width: 98px;
@@ -422,21 +407,19 @@ body {
   top: 64px;
   left: 35px;
 }
-
 .spec-card-content {
   position: absolute;
-  width: 318px;
-  height: 132px;
+  width:318px ;
+  height:132px ;
   font-family: 'Inter';
-  font-style: normal;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 22px;
-  color: #ACACAE;
-  bottom: 64px;
-  left: 32px;
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 22px;
+color: #ACACAE;
+bottom: 64px;
+left: 32px;
 }
-
 .spec-card1::before {
   content: "";
   position: absolute;
@@ -465,9 +448,8 @@ body {
   margin-left: 567px;
   width: 145px;
   height: 13px;
-
+  
 }
-
 #spec-left {
   position: absolute;
   width: 50px;
@@ -478,7 +460,6 @@ body {
   color: #f9cc11;
   display: block;
 }
-
 #spec-right1 {
   position: absolute;
   width: 50px;
@@ -501,7 +482,6 @@ body {
   top: 9.5px;
   border: 1px solid rgba(249, 204, 17, 0.3);
 }
-
 .spec-point2 {
   box-sizing: border-box;
   border-radius: 50%;
@@ -512,7 +492,6 @@ body {
   top: 9.5px;
   border: 1px solid rgba(249, 204, 17, 0.6);
 }
-
 .spec-point3 {
   position: absolute;
   border-radius: 50%;
@@ -522,7 +501,6 @@ body {
   left: 70px;
   background: #f9cc11;
 }
-
 .spec-point4 {
   box-sizing: border-box;
   border-radius: 50%;
@@ -532,9 +510,8 @@ body {
   left: 35px;
   top: 9.5px;
   border: 1px solid rgba(249, 204, 17, 0.6);
-
+ 
 }
-
 .spec-point5 {
   box-sizing: border-box;
   border-radius: 50%;
@@ -546,16 +523,16 @@ body {
   border: 1px solid rgba(249, 204, 17, 0.3);
 }
 
---------------------------------------------------------------------------------- .clients {
+/* ---------------------------------------------clients-------------------- */
+.clients {
   position: relative;
   width: 1366px;
   height: 265.32px;
   top: 272px;
   font-family: "Inter";
   text-align: center;
-
+ 
 }
-
 .clients-title {
   position: relative;
   margin: 0 auto;
@@ -563,7 +540,6 @@ body {
   width: 251px;
   height: 68px;
 }
-
 .clients-main-title {
   padding-top: 13px;
   width: 251px;
@@ -576,7 +552,6 @@ body {
   color: #f5f5f7;
   margin-left: 5px;
 }
-
 .clients-sub-title {
   position: absolute;
   right: 3%;
@@ -589,7 +564,6 @@ body {
   line-height: 22px;
   color: #f9cc11;
 }
-
 .slide-image {
   display: flex;
   justify-content: space-between;
@@ -597,42 +571,34 @@ body {
   margin-top: 64px;
   margin-bottom: 64px;
 }
-
 .slide-image .slide-img {
   justify-content: space-between;
 }
-
 #Layer1 {
   width: 177px;
   height: 57.03px;
 }
-
 #Layer2 {
   width: 147px;
   height: 31.03px;
 }
-
 #Layer3 {
   width: 144.04px;
   height: 44.45px;
 }
-
 #Layer4 {
   width: 150px;
-  height: 18px;
+    height: 18px;
 
 }
-
 #Layer5 {
   width: 151px;
   height: 54.41px;
 }
-
 #Layer6 {
   width: 194px;
   height: 34.39px;
 }
-
 .point {
   width: 145px;
   height: 13px;
@@ -640,9 +606,8 @@ body {
   position: absolute;
   margin-top: 100px;
   margin-left: 607px;
-
+  
 }
-
 #left {
   position: absolute;
   width: 50px;
@@ -653,7 +618,6 @@ body {
   color: #f9cc11;
   display: block;
 }
-
 #right1 {
   position: absolute;
   width: 50px;
@@ -676,7 +640,6 @@ body {
   top: 30.5px;
   border: 1px solid rgba(249, 204, 17, 0.3);
 }
-
 .point2 {
   box-sizing: border-box;
   border-radius: 50%;
@@ -687,7 +650,6 @@ body {
   top: 30.5px;
   border: 1px solid rgba(249, 204, 17, 0.6);
 }
-
 .point3 {
   position: absolute;
   border-radius: 50%;
@@ -697,7 +659,6 @@ body {
   left: 70px;
   background: #f9cc11;
 }
-
 .point4 {
   box-sizing: border-box;
   border-radius: 50%;
@@ -707,9 +668,8 @@ body {
   left: 35px;
   top: 30.5px;
   border: 1px solid rgba(249, 204, 17, 0.6);
-
+ 
 }
-
 .point5 {
   box-sizing: border-box;
   border-radius: 50%;
@@ -721,7 +681,9 @@ body {
   border: 1px solid rgba(249, 204, 17, 0.3);
 }
 
------------------------------------------------------------------------------------------ .Achievement {
+/*------------------------------------------------ end clients-------------------- */
+/* ------------------------------------------------Achievement--------------------------- */
+.Achievement {
   margin: 0 auto;
   position: relative;
   width: 1006px;
@@ -730,7 +692,6 @@ body {
   font-family: "Inter";
   top: 342px;
 }
-
 .Achievement-title {
   position: relative;
   margin: 0 auto;
@@ -738,11 +699,10 @@ body {
   width: 292px;
   height: 68px;
 }
-
 .Achievement-main-title {
   padding-top: 13px;
-  width: 292px;
-  height: 54px;
+  width:292px;
+    height: 54px;
   text-align: center;
   font-style: normal;
   font-weight: 700;
@@ -751,7 +711,6 @@ body {
   color: #f5f5f7;
   margin-left: 5px;
 }
-
 .Achievement-sub-title {
   position: absolute;
   left: 250px;
@@ -764,7 +723,6 @@ body {
   line-height: 19px;
   color: #f9cc11;
 }
-
 .Achievement-inside .title {
   position: absolute;
   width: 386px;
@@ -777,7 +735,6 @@ body {
   line-height: 40px;
   color: #f5f5f7;
 }
-
 .line1 {
   position: absolute;
   width: 106px;
@@ -791,8 +748,7 @@ body {
   -ms-transform: rotate(90deg);
   -o-transform: rotate(90deg);
 }
-
-.title {
+.title{
   position: absolute;
   width: 386px;
   height: 40px;
@@ -804,13 +760,12 @@ body {
   line-height: 40px;
   color: #f5f5f7;
 }
-
 .commit1 {
   position: absolute;
   width: 982px;
   height: 40px;
   left: 35px;
-  top: 170px;
+  top:170px;
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
@@ -818,7 +773,6 @@ body {
   text-align: start;
   color: #acacae;
 }
-
 .date1 {
   position: absolute;
   width: 90px;
@@ -832,7 +786,6 @@ body {
   line-height: 22px;
   color: #f9cc11;
 }
-
 .line2 {
   position: absolute;
   width: 106px;
@@ -846,7 +799,6 @@ body {
   -ms-transform: rotate(90deg);
   -o-transform: rotate(90deg);
 }
-
 .title2 {
   position: absolute;
   width: 386px;
@@ -859,13 +811,12 @@ body {
   line-height: 40px;
   color: #f5f5f7;
 }
-
 .commit2 {
   position: absolute;
   width: 982px;
   height: 66px;
   left: 35px;
-  top: 395px;
+  top:395px;
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
@@ -873,7 +824,6 @@ body {
   text-align: start;
   color: #acacae;
 }
-
 .date2 {
   position: absolute;
   width: 90px;
@@ -887,7 +837,6 @@ body {
   line-height: 22px;
   color: #f9cc11;
 }
-
 .line3 {
   position: absolute;
   width: 106px;
@@ -897,7 +846,6 @@ body {
   border: 2px solid #f9cc11;
   transform: rotate(90deg);
 }
-
 .title3 {
   position: absolute;
   width: 386px;
@@ -910,13 +858,12 @@ body {
   line-height: 40px;
   color: #f5f5f7;
 }
-
 .commit3 {
   position: absolute;
   width: 982px;
   height: 66px;
   left: 35px;
-  top: 595px;
+  top:595px;
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
@@ -924,7 +871,6 @@ body {
   text-align: start;
   color: #acacae;
 }
-
 .date3 {
   position: absolute;
   width: 90px;
@@ -938,7 +884,6 @@ body {
   line-height: 22px;
   color: #f9cc11;
 }
-
 .view {
   position: absolute;
   left: 1%;
@@ -954,16 +899,16 @@ body {
   text-decoration-line: underline;
   color: #f9cc11;
 }
+/* -------------------------------end Achievement---------------- */
 
---------------------------------------------------------------------------------------- .videos {
+.videos {
   position: relative;
   width: 1287px;
   height: 1046px;
   left: 40px;
   top: 92px;
-
+  
 }
-
 .vid-title {
   position: relative;
   margin: 0 auto;
@@ -971,7 +916,6 @@ body {
   width: 155px;
   height: 68px;
 }
-
 .vid-main-title {
   padding-top: 14px;
   width: 155px;
@@ -984,7 +928,6 @@ body {
   line-height: 54px;
   color: #f5f5f7;
 }
-
 .vid-sub-title {
   position: absolute;
   right: 3%;
@@ -1018,27 +961,22 @@ body {
   line-height: 22px;
   color: #f5f5f7;
 }
-
 .vid-nav-item2 {
   width: 134px;
   height: 22px;
 }
-
 .vid-nav-item3 {
   width: 124px;
   height: 22px;
 }
-
 .vid-nav-item4 {
   width: 75px;
   height: 22px;
 }
-
 .vid-nav-item5 {
   width: 86px;
   height: 22px;
 }
-
 .vid-nav-button {
   position: relative;
   top: 20%;
@@ -1046,7 +984,6 @@ body {
   height: 16.29px;
   color: yellow;
 }
-
 .vid-nav-button i {
   position: absolute;
   bottom: 0.9px;
@@ -1085,13 +1022,11 @@ body {
   width: 833px;
   height: 475px;
 }
-
 .vid-cont-1 .main {
   background-image: url("./images/vid-1.svg");
   width: 833px;
   height: 416px;
 }
-
 .vid-cont-1 .player {
   background-image: url("./images/player.svg");
   width: 833px;
@@ -1112,21 +1047,18 @@ body {
   right: 0%;
   position: absolute;
 }
-
 .vid-cont-3 {
   background-image: url("./images/vid-3.svg");
   top: 261px;
   right: 0%;
   position: absolute;
 }
-
 .vid-cont-4 {
   background-image: url("./images/vid-4.svg");
   top: 522px;
   right: 0%;
   position: absolute;
 }
-
 .vid-cont-5 {
   background-image: url("./images/vid-5.svg");
   bottom: 0%;
@@ -1135,7 +1067,6 @@ body {
   height: 213px;
   position: absolute;
 }
-
 .vid-cont-6 {
   background-image: url("./images/vid-6.svg");
   bottom: 0%;
@@ -1144,8 +1075,7 @@ body {
   position: absolute;
 }
 
-
-------------------------------------------------------------------------------------------- .contact {
+.contact {
   position: relative;
   width: 1008px;
   height: 843px;
@@ -1153,7 +1083,6 @@ body {
   top: 710px;
 
 }
-
 .cont-title {
   position: relative;
   margin: 0 auto 64px auto;
@@ -1161,7 +1090,6 @@ body {
   width: 206px;
   height: 76px;
 }
-
 .cont-main-title {
   padding-top: 22px;
   width: 206px;
@@ -1174,7 +1102,6 @@ body {
   line-height: 54px;
   color: #f5f5f7;
 }
-
 .cont-sub-title {
   position: absolute;
   right: 0%;
@@ -1201,7 +1128,6 @@ body {
   width: 1006px;
   height: 48px;
 }
-
 .cont-input-left,
 .cont-input-right {
   display: flex;
@@ -1209,9 +1135,11 @@ body {
   align-items: center;
   width: 403px;
   height: 47px;
-  background: linear-gradient(102.21deg,
-      rgba(187, 187, 187, 0.2) 1.03%,
-      rgba(121, 121, 121, 0) 100%);
+  background: linear-gradient(
+    102.21deg,
+    rgba(187, 187, 187, 0.2) 1.03%,
+    rgba(121, 121, 121, 0) 100%
+  );
   backdrop-filter: blur(10px);
   border-bottom: 1px solid #f9cc11;
 }
@@ -1229,14 +1157,18 @@ body {
 .text-field {
   width: 1006px;
   height: 468px;
-  background: linear-gradient(102.21deg,
-      rgba(187, 187, 187, 0.2) 1.03%,
-      rgba(121, 121, 121, 0) 100%);
+  background: linear-gradient(
+    102.21deg,
+    rgba(187, 187, 187, 0.2) 1.03%,
+    rgba(121, 121, 121, 0) 100%
+  );
   backdrop-filter: blur(10px);
   border: 1px solid;
-  border-image-source: linear-gradient(180deg,
-      #f9cc11 0%,
-      rgba(249, 204, 17, 0.3) 100%);
+  border-image-source: linear-gradient(
+    180deg,
+    #f9cc11 0%,
+    rgba(249, 204, 17, 0.3) 100%
+  );
 }
 
 .text-title {
@@ -1251,7 +1183,6 @@ body {
   padding-top: 64px;
   margin: 0px 326px 32px 323px;
 }
-
 .text-sub-title {
   margin: 0 auto;
   width: 539px;
@@ -1282,16 +1213,15 @@ body {
   border-radius: 10px;
 }
 
-------------------------------------------------------------------------------- .footer {
+.footer {
   position: relative;
   margin-top: 92px;
   margin-bottom: 22px;
   width: 1366px;
   height: 223px;
-  top: 730px;
-
+  top:730px;
+ 
 }
-
 .footer-content {
   position: relative;
   width: 1013px;
@@ -1310,7 +1240,6 @@ body {
   line-height: 40px;
   color: #acacae;
 }
-
 .footer-text {
   position: absolute;
   right: 68px;
@@ -1336,7 +1265,6 @@ body {
   line-height: 40px;
   color: #acacae;
 }
-
 .footer-social {
   display: flex;
   flex-direction: row;
@@ -1347,7 +1275,6 @@ body {
   bottom: 0px;
   right: 0px;
 }
-
 .footer-social-1,
 .footer-social-2,
 .footer-social-3,
@@ -1377,13 +1304,18 @@ body {
   color: #acacae;
 }
 
---------------------------------------------------------------------------------------- .portfolio {
+/* ---------portfolio
+
+    /* background: url(/assets/img/andrej-lisakov-g3z-CgUiPtg-unsplash\ 3@2x.png);
+    background-color: rgb(14 13 13 / 100%); */
+
+.portfolio {
   position: relative;
   max-width: 1366px;
   height: 650.32px;
   top: 150px;
-
-
+ 
+  
 }
 
 .por-title {
@@ -1410,7 +1342,7 @@ body {
   height: 22px;
   left: 328px;
   top: 150px;
-  font-family: 'Inter';
+  font-family:  'Inter';
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -1598,7 +1530,6 @@ body {
   color: #f9cc11;
   display: block;
 }
-
 #pro-right1 {
   position: absolute;
   width: 50px;
@@ -1621,7 +1552,6 @@ body {
   top: 553px;
   border: 1px solid rgba(249, 204, 17, 0.3);
 }
-
 .pro-point2 {
   box-sizing: border-box;
   border-radius: 50%;
@@ -1632,7 +1562,6 @@ body {
   top: 553px;
   border: 1px solid rgba(249, 204, 17, 0.6);
 }
-
 .pro-point3 {
   position: absolute;
   border-radius: 50%;
@@ -1642,7 +1571,6 @@ body {
   left: 70px;
   background: #f9cc11;
 }
-
 .pro-point4 {
   box-sizing: border-box;
   border-radius: 50%;
@@ -1652,9 +1580,8 @@ body {
   left: 35px;
   top: 553px;
   border: 1px solid rgba(249, 204, 17, 0.6);
-
+ 
 }
-
 .pro-point5 {
   box-sizing: border-box;
   border-radius: 50%;
@@ -1665,19 +1592,20 @@ body {
   top: 553px;
   border: 1px solid rgba(249, 204, 17, 0.3);
 }
-
-.portfolio .spec-sub-title {
+.portfolio .spec-sub-title{
   left: 691px;
   top: 18px;
 
 }
 
----------------------------------------------------------------------------------------------------------------------- .Biography {
+
+
+.Biography {
   position: relative;
   display: flex;
   justify-content: center;
   top: 180px;
-
+  
 }
 
 .Biography .first-text {
@@ -1730,13 +1658,12 @@ body {
   background-image: url("./images/shadow-bg.png");
   top: 3376px;
 }
-
-.videos .view {
-  top: 830px;
-  left: 590px;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 24px;
-  letter-spacing: 0.04em;
-}
+.videos .view{
+top:830px;
+left:590px;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.04em;
+} 
