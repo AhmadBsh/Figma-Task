@@ -538,18 +538,15 @@ bottom: 69.42%; */
   background: #f9cc11;
 }
 
+/* ---------------------------------------------clients-------------------- */
 .clients {
   position: relative;
   width: 1366px;
   height: 265.32px;
   top: 2257px;
   font-family: "Inter";
+ /* text-align: center; *\
 }
-
-.clients {
-  text-align: center;
-}
-
 .clients-title {
   position: relative;
   margin: 0 auto;
@@ -557,7 +554,6 @@ bottom: 69.42%; */
   width: 251px;
   height: 68px;
 }
-
 .clients-main-title {
   padding-top: 13px;
   width: 251px;
@@ -571,7 +567,6 @@ bottom: 69.42%; */
   color: #f5f5f7;
   margin-left: 5px;
 }
-
 .clients-sub-title {
   position: absolute;
   right: 3%;
@@ -585,14 +580,12 @@ bottom: 69.42%; */
   line-height: 22px;
   color: #f9cc11;
 }
-
 .slide-image {
   display: flex;
   justify-content: space-between;
   margin-top: 64px;
   margin-bottom: 64px;
 }
-
 .slide-image .slide-img {
   justify-content: space-between;
   /* width: 120px;
@@ -622,7 +615,6 @@ bottom: 69.42%; */
   width: 194px;
   height: 34.39px;
 }
-
 .point {
   width: 145px;
   height: 13px;
@@ -636,8 +628,7 @@ bottom: 69.42%; */
   text-align: start;
   margin-left: -470px;
   margin-top: 4px;
-  /* bottom: 3px; */
-  color: #f9cc11;
+  color: #F9CC11;
 }
 #right1 {
   position: absolute;
@@ -646,19 +637,16 @@ bottom: 69.42%; */
   text-align: end;
   margin-left: 470px;
   margin-top: 4px;
-  /* bottom: 3px; */
   color: #f9cc11;
 }
 .point0 {
-  color: #f9cc11;
+  color: #F9CC11;
   display: flex;
   flex-direction: row;
   justify-content: center;
   list-style-type: circle;
   justify-content: space-between;
-  /* padding: 8px; */
 }
-
 .point1 {
   box-sizing: border-box;
   border-radius: 50%;
@@ -667,10 +655,8 @@ bottom: 69.42%; */
   height: 8px;
   left: 145px;
   top: 9.5px;
-  /* top: 2153px;  */
   border: 1px solid rgba(249, 204, 17, 0.3);
 }
-
 .point2 {
   box-sizing: border-box;
   border-radius: 50%;
@@ -679,21 +665,16 @@ bottom: 69.42%; */
   height: 10px;
   left: 110px;
   top: 9px;
-  /* top: 2152px; */
   border: 1px solid rgba(249, 204, 17, 0.6);
 }
-
 .point3 {
   position: absolute;
   border-radius: 50%;
   width: 13px;
   height: 13px;
-  /* left: 100px;*/
   top: 7px;
-  /* top: 2150px; */
   left: 70px;
-  /* top: 2508px; */
-  background: #f9cc11;
+  background: #F9CC11;
 }
 .point4 {
   box-sizing: border-box;
@@ -703,7 +684,7 @@ bottom: 69.42%; */
   height: 10px;
   left: 35px;
   top: 9px;
-  /*top: 2152px;*/
+
   border: 1px solid rgba(249, 204, 17, 0.6);
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -718,9 +699,227 @@ bottom: 69.42%; */
   height: 8px;
   left: 3px;
   top: 9.5px;
-  /* top: 2153px; */
   border: 1px solid rgba(249, 204, 17, 0.3);
 }
+/*------------------------------------------------ end clients-------------------- */
+/* ------------------------------------------------Achievement--------------------------- */
+.Achievement {
+  position: absolute;
+  width: 1006px;
+  height: 588px;
+  left: 180px;
+  text-align: center;
+  font-family: "Inter";
+  top: 2744px;
+}
+.Achievement-title {
+  position: relative;
+  margin: 0 auto;
+  text-align: start;
+  width: 251px;
+  height: 68px;
+}
+.Achievement-main-title {
+  padding-top: 13px;
+  width: 251px;
+  height: 60px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 54px;
+  color: #f5f5f7;
+  margin-left: 5px;
+}
+.Achievement-sub-title {
+  position: absolute;
+  left: 250px;
+  width: 73.88px;
+  height: 22px;
+  text-align: start;
+  font-weight: 300;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 19px;
+  color: #f9cc11;
+}
+.Achievement-inside .title {
+  position: absolute;
+  width: 386px;
+  height: 40px;
+  left: 40px;
+  top: 110px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 40px;
+  color: #F5F5F7;
+}
+.line1 {
+  position: absolute;
+  width: 109px;
+  height: 0px;
+  right: 920px;
+  top: 200px;
+  border: 2px solid #F9CC11;
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+}
+.title {
+  position: absolute;
+  width: 386px;
+  height: 40px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 40px;
+  color: #F5F5F7;
+  margin-left: 24px;
+  top: 110px;
+}
+.commit1 {
+  position: absolute;
+  width: 982px;
+  height: 66px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ACACAE;
+  margin-top: 127px;
+  margin-left: 65px;
+  text-align: start;
+}
+.date1 {
+  position: absolute;
+  width: 90px;
+  height: 22px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  color: #F9CC11;
+  margin-top: 80px;
+  margin-left: 465px;
+  text-align: start;
+}
+.line2 {
+  position: absolute;
+  width: 109px;
+  height: 0px;
+  right: 920px;
+  top: 400px;
+  border: 2px solid #F9CC11;
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+}
+.title2 {
+  position: absolute;
+  width: 386px;
+  height: 40px;
+  left: 65px;
+  top: 310px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 40px;
+  color: #F5F5F7;
+}
+.commit2 {
+  position: absolute;
+  width: 982px;
+  height: 66px;
+  left: 65px;
+  top: 375px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: start;
+  color: #ACACAE;
+}
+.date2 {
+  position: absolute;
+  width: 90px;
+  height: 22px;
+  left: 965px;
+  top: 348px;
+  text-align: start;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  color: #F9CC11;
+}
+.line3 {
+  position: absolute;
+  width: 109px;
+  height: 0px;
+  right: 920px;
+  top: 600px;
+  border: 2px solid #F9CC11;
+  transform: rotate(90deg);
+}
+.title3 {
+  position: absolute;
+  width: 386px;
+  height: 40px;
+  left: 65px;
+  top: 510px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 40px;
+  color: #F5F5F7;
+}
+.commit3 {
+  position: absolute;
+  width: 982px;
+  height: 66px;
+  left: 65px;
+  top: 570px;
+  text-align: start;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ACACAE;
+}
+.date3 {
+  position: absolute;
+  width: 90px;
+  height: 22px;
+  left: 965px;
+  top: 548px;
+  text-align: start;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  color: #F9CC11;
+}
+.view {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 700px;
+  bottom: 0%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-decoration-line: underline;
+  color: #F9CC11;
+
+}
+/* -------------------------------end Achievement---------------- */
 
 /* ---------portfolio
 
@@ -732,6 +931,7 @@ bottom: 69.42%; */
   max-width: 1366px;
   height: 558.32px;
   top: 4562px;
+  border: 1px solid rgba(249, 204, 17, 0.3);
 }
 
 .por-title {
