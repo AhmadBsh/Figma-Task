@@ -562,6 +562,7 @@ left: 32px;
 .slide-image {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-top: 64px;
   margin-bottom: 64px;
 }
@@ -581,8 +582,9 @@ left: 32px;
   height: 44.45px;
 }
 #Layer4 {
-  width: 149.99px;
-  height: 17.62px;
+  width: 150px;
+    height: 18px;
+
 }
 #Layer5 {
   width: 151px;
@@ -1504,7 +1506,7 @@ left: 32px;
 
 .por-slider-img3 {
   position: absolute;
-  width: 324px;
+  width: 230px;
   height: 256px;
   left: 897px;
   top: 0px;
