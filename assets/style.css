@@ -544,10 +544,170 @@ body {
 }
 
 /* ---------------------------------------------clients-------------------- */
+/* .clients {
+    position: relative;
+    width: 1413px;
+    height: 265.32px;
+    left: -23px;
+    top: 2257px;
+    font-family: "Inter";
+    text-align: center;
+}
+.clients-title {
+    position: relative;
+    margin: 0 auto;
+    text-align: start;
+    width: 251px;
+    height: 68px;
+}
+.clients-main-title {
+    padding-top: 13px;
+    width: 251px;
+    height: 60px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    color: #f5f5f7;
+    margin-left: 5px;
+}
+.clients-sub-title {
+    position: absolute;
+    right: 3%;
+    width: 73.88px;
+    height: 22px;
+    text-align: start;
+    font-weight: 300;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 22px;
+    color: #f9cc11;
+}
+.slide-image {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+.slide-image .slide-img {
+    justify-content: space-between;
+}
+#Layer1 {
+    width: 177px;
+    height: 57.03px;
+}
+#Layer2 {
+    width: 147px;
+    height: 31.03px;
+}
+#Layer3 {
+    width: 144.04px;
+    height: 44.45px;
+}
+#Layer4 {
+    width: 149.99px;
+    height: 17.62px;
+}
+#Layer5 {
+    width: 151px;
+    height: 54.41px;
+}
+#Layer6 {
+    width: 194px;
+    height: 34.39px;
+}
+.point {
+    width: 145px;
+    height: 13px;
+    margin: 0 auto;
+    position: relative;
+}
+#left {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    text-align: start;
+    margin-left: -460px;
+    margin-top: 8.1px;
+    color: #F9CC11;
+    display: block;
+}
+#right1 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    text-align: end;
+    margin-left: 540px;
+    margin-top: 9.5px;
+    color: #F9CC11;
+    display: block;
+}
+.point{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 640px;
+}
+
+.point1 {
+    box-sizing: border-box;
+    border-radius: 50%;
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    left: 145px;
+    top: 9.5px;
+    border: 1px solid rgba(249, 204, 17, 0.3);
+}
+.point2 {
+    box-sizing: border-box;
+    border-radius: 50%;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 110px;
+    top: 9.5px;
+    border: 1px solid rgba(249, 204, 17, 0.6);
+}
+.point3 {
+    position: absolute;
+    border-radius: 50%;
+    width: 13px;
+    height: 13px;
+    top: 9.5px;
+    left: 70px;
+    background: #F9CC11;
+}
+.point4 {
+    box-sizing: border-box;
+    border-radius: 50%;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 35px;
+    top: 9.5px;
+    border: 1px solid rgba(249, 204, 17, 0.6);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.point5 {
+
+    box-sizing: border-box;
+    border-radius: 50%;
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    left: 3px;
+    top: 9.5px;
+    border: 1px solid rgba(249, 204, 17, 0.3);
+} */
 .clients {
   position: relative;
-  width: 1366px;
+  width: 1413px;
   height: 265.32px;
+  left: -23px;
   top: 2257px;
   font-family: "Inter";
   text-align: center;
@@ -564,7 +724,6 @@ body {
   width: 251px;
   height: 60px;
   text-align: center;
-  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 45px;
@@ -578,7 +737,6 @@ body {
   width: 73.88px;
   height: 22px;
   text-align: start;
-  font-family: "Inter";
   font-weight: 300;
   font-size: 16px;
   font-style: normal;
@@ -593,8 +751,6 @@ body {
 }
 .slide-image .slide-img {
   justify-content: space-between;
-  /* width: 120px;
-    height: 25px; */
 }
 #Layer1 {
   width: 177px;
@@ -631,27 +787,39 @@ body {
   width: 50px;
   height: 50px;
   text-align: start;
-  margin-left: -470px;
-  margin-top: 4px;
-  color: #f9cc11;
+  margin-left: -460px;
+  margin-top: 8.1px;
+  color: #F9CC11;
+  display: block;
 }
 #right1 {
   position: absolute;
   width: 50px;
   height: 50px;
   text-align: end;
-  margin-left: 470px;
-  margin-top: 4px;
-  color: #f9cc11;
+  margin-left: 540px;
+  margin-top: 9.5px;
+  color: #F9CC11;
+  display: block;
 }
-.point0 {
-  color: #f9cc11;
+.point{
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 640px;
+}
+/* .point0 {
+  color: #F9CC11;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  list-style-type: circle;
-  justify-content: space-between;
-}
+  list-style-type: circle;  */
+   /* justify-content: space-between; */
+  /* position: absolute;
+width: 145px;
+height: 13px;
+left: 60px;
+top: 30px;
+} */
 .point1 {
   box-sizing: border-box;
   border-radius: 50%;
@@ -669,7 +837,7 @@ body {
   width: 10px;
   height: 10px;
   left: 110px;
-  top: 9px;
+  top: 9.5px;
   border: 1px solid rgba(249, 204, 17, 0.6);
 }
 .point3 {
@@ -677,9 +845,9 @@ body {
   border-radius: 50%;
   width: 13px;
   height: 13px;
-  top: 7px;
+  top: 9.5px;
   left: 70px;
-  background: #f9cc11;
+  background: #F9CC11;
 }
 .point4 {
   box-sizing: border-box;
@@ -688,8 +856,7 @@ body {
   width: 10px;
   height: 10px;
   left: 35px;
-  top: 9px;
-
+  top: 9.5px;
   border: 1px solid rgba(249, 204, 17, 0.6);
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -697,6 +864,7 @@ body {
   -o-border-radius: 50%;
 }
 .point5 {
+
   box-sizing: border-box;
   border-radius: 50%;
   position: absolute;
