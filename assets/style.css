@@ -1385,6 +1385,7 @@ body {
   text-align: start;
   width: 206px;
   height: 76px;
+  right: 15px;
 }
 .cont-main-title {
   padding-top: 22px;
@@ -1400,7 +1401,7 @@ body {
 }
 .cont-sub-title {
   position: absolute;
-  right: 9px;
+  left: 73px;
   width: 126px;
   height: 22px;
   text-align: end;
