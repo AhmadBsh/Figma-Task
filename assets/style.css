@@ -35,6 +35,12 @@ body {
   height: 745px;
   z-index: -1;
 }
+.navbar0 { 
+  width: 1364px;
+  height: 113px;
+
+}
+
 .navbar {
   background: rgba(2, 2, 2, 0.05);
   border-bottom: 0.5px solid #f5f5f7;
@@ -42,6 +48,7 @@ body {
   width: 1364px;
   height: 113px;
   position: fixed;
+  z-index: 100;
 }
 .navbar .logo {
   position: absolute;
@@ -63,9 +70,7 @@ body {
   margin-bottom: 44px;
   margin-right: 42px;
 }
-.navbar {
-  position: relative;
-}
+
 .nav-content {
   position: absolute;
   right: 0px;
@@ -1001,56 +1006,46 @@ body {
 .vid-cont-1 {
   width: 833px;
   height: 475px;
+  border: 1px solid black;
 }
-.vid-cont-1 .main {
-  background-image: url("./images/vid-1.png");
-  width: 833px;
-  height: 416px;
-}
-.vid-cont-1 .player {
-  background-image: url("./images/player.svg");
-  width: 833px;
-  height: 59px;
-  border-radius: 0px 0px 5px 5px;
-}
+
 .vid-cont-2,
 .vid-cont-3,
 .vid-cont-4 {
   width: 389px;
   height: 213.55px;
+ border: 1px solid black; 
 }
 .vid-cont-2 {
-  background-image: url("./images/vid-2.png");
   top: 0%;
   right: 0%;
   position: absolute;
 }
 .vid-cont-3 {
-  background-image: url("./images/vid-3.png");
   top: 261px;
   right: 0%;
   position: absolute;
 }
 .vid-cont-4 {
-  background-image: url("./images/vid-4.png");
   top: 522px;
   right: 0%;
   position: absolute;
 }
 .vid-cont-5 {
-  background-image: url("./images/vid-5.png");
   bottom: 0%;
   right: 454px;
   width: 389px;
   height: 213px;
   position: absolute;
+  border: 1px solid black; 
 }
 .vid-cont-6 {
-  background-image: url("./images/vid-6.png");
   bottom: 0%;
+  left: 0px;
   width: 389px;
   height: 213px;
   position: absolute;
+  border: 1px solid black; 
 }
 .videos .view {
   top:  800px;
