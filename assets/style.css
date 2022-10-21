@@ -24,7 +24,7 @@ body {
 /* Home Section */
 
 .shadow-bg1 {
-  background-image: url("/assets/images/homePage.png");
+  background-image: url("./assets/images/homePage.png");
   width: 1541px;
   height: 745px;
   z-index: 1;
