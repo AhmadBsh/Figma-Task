@@ -692,11 +692,11 @@ body {
   font-size: 45px;
   line-height: 54px;
   color: #f5f5f7;
-  margin-left: 5px;
+  margin-left: 3.5px;
 }
 .Achievement-sub-title {
   position: absolute;
-  left: 250px;
+  left: 260px;
   width: 73.88px;
   height: 22px;
   text-align: start;
@@ -710,7 +710,7 @@ body {
   position: absolute;
   width: 386px;
   height: 40px;
-  left: 40px;
+  left: 24px;
   top: 110px;
   font-style: normal;
   font-weight: 400;
@@ -735,7 +735,7 @@ body {
   position: absolute;
   width: 386px;
   height: 40px;
-  left: 35px;
+  left: 24px;
   top: 336px;
   font-style: normal;
   font-weight: 400;
@@ -747,7 +747,7 @@ body {
   position: absolute;
   width: 982px;
   height: 40px;
-  left: 35px;
+  left: 24px;
   top: 170px;
   font-style: normal;
   font-weight: 300;
@@ -786,7 +786,7 @@ body {
   position: absolute;
   width: 386px;
   height: 40px;
-  left: 35px;
+  left: 24px;
   top: 336px;
   font-style: normal;
   font-weight: 400;
@@ -798,7 +798,7 @@ body {
   position: absolute;
   width: 982px;
   height: 66px;
-  left: 35px;
+  left: 24px;
   top: 395px;
   font-style: normal;
   font-weight: 300;
@@ -833,7 +833,7 @@ body {
   position: absolute;
   width: 386px;
   height: 40px;
-  left: 35px;
+  left: 24px;
   top: 536px;
   font-style: normal;
   font-weight: 400;
@@ -845,7 +845,7 @@ body {
   position: absolute;
   width: 982px;
   height: 66px;
-  left: 35px;
+  left: 24px;
   top: 595px;
   font-style: normal;
   font-weight: 300;
