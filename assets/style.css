@@ -609,7 +609,7 @@ body {
   width: 50px;
   height: 50px;
   text-align: end;
-  margin-left: 521px;
+  margin-left: 553px;
   margin-top: 30.5px;
   color: #f9cc11;
   display: block;
@@ -620,7 +620,7 @@ body {
   position: absolute;
   width: 8px;
   height: 8px;
-  left: 145px;
+  left: 144px;
   top: 30.5px;
   border: 1px solid rgba(249, 204, 17, 0.3);
 }
@@ -630,7 +630,7 @@ body {
   position: absolute;
   width: 10px;
   height: 10px;
-  left: 110px;
+  left: 111px;
   top: 30.5px;
   border: 1px solid rgba(249, 204, 17, 0.6);
 }
@@ -640,7 +640,7 @@ body {
   width: 13px;
   height: 13px;
   top: 30.5px;
-  left: 70px;
+  left: 73.5px;
   background: #f9cc11;
 }
 .point4 {
@@ -649,7 +649,7 @@ body {
   position: absolute;
   width: 10px;
   height: 10px;
-  left: 35px;
+  left: 43px;
   top: 30.5px;
   border: 1px solid rgba(249, 204, 17, 0.6);
 }
@@ -659,7 +659,7 @@ body {
   position: absolute;
   width: 8px;
   height: 8px;
-  left: 3px;
+  left: 10px;
   top: 30.5px;
   border: 1px solid rgba(249, 204, 17, 0.3);
 }
