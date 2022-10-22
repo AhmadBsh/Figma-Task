@@ -160,25 +160,25 @@ body {
   position: absolute;
   width: 26px;
   height: 38px;
-  left: 677px;
+  left: 696px;
   margin-top: 517px;
-  border: 1.5px solid #fffdfd;
+  border: 1px solid #fffdfd;
   border-radius: 13px;
 }
 .line-rectangle {
   position: absolute;
   width: 10px;
   height: 0px;
-  left: 684px;
+  left: 677px;
   top: 642px;
-  border: 2px solid #ffffff;
+  border: 1px solid #ffffff;
   transform: rotate(90deg);
 }
 .line-right {
   position: absolute;
   width: 17.69px;
   height: 0px;
-  left: 689px;
+  left: 682px;
   top: 682px;
   border: 1px solid #ffffff;
   transform: matrix(-0.73, 0.68, 0.68, 0.73, 0, 0);
@@ -187,7 +187,7 @@ body {
   position: absolute;
   width: 17.69px;
   height: 0px;
-  left: 675px;
+  left: 668px;
   top: 682px;
   border: 1px solid #ffffff;
   transform: rotate(42.71deg);
@@ -628,7 +628,7 @@ body {
   position: absolute;
   width: 8px;
   height: 8px;
-  left: 144px;
+  left: 146px;
   top: 30.5px;
   border: 1px solid rgba(249, 204, 17, 0.3);
 }
@@ -638,7 +638,7 @@ body {
   position: absolute;
   width: 10px;
   height: 10px;
-  left: 111px;
+  left: 113px;
   top: 30.5px;
   border: 1px solid rgba(249, 204, 17, 0.6);
 }
@@ -648,7 +648,7 @@ body {
   width: 13px;
   height: 13px;
   top: 30.5px;
-  left: 73.5px;
+  left: 70.5px;
   background: #f9cc11;
 }
 .point4 {
@@ -657,7 +657,7 @@ body {
   position: absolute;
   width: 10px;
   height: 10px;
-  left: 43px;
+  left: 35px;
   top: 30.5px;
   border: 1px solid rgba(249, 204, 17, 0.6);
 }
@@ -667,7 +667,7 @@ body {
   position: absolute;
   width: 8px;
   height: 8px;
-  left: 10px;
+  left: 5px;
   top: 30.5px;
   border: 1px solid rgba(249, 204, 17, 0.3);
 }
@@ -877,7 +877,7 @@ body {
 }
 .view {
   position: absolute;
-  left: 1%;
+  left: 0%;
   right: 0%;
   top: 680px;
   bottom: 0%;
